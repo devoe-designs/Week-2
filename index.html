@@ -2,19 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>HTML Page Task</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
 </head>
 <body>
-    <h1>Cierra - Fullstack Development</h1>
-    <img src="./assets/IMG_6339.jpeg" alt="Me in front of Cafe Du Monde in New Orleans" width="500">
+    <form action="server.php">  
+First name: <input type="text" name="First Name"  placeholder="enter first name..." required><br>  
+Last name: <input type="text" name="Last Name" placeholder="enter last name..." required><br> 
+Email: <input type="text" name="Email Address" placeholder="enter email address..." required><br>  
+Message: <input type="text" name="Message" placeholder="Type message here..." required><br>  
+<select name= "Priority">
+    <option value=" "High" Selected>High</option>
+    <option value="Medium">Medium</option>
+    <option value="Low">Low</option>
+</select>
+<input type="submit" value="Submit">  
+</form>  
 </body>
-<h1> About Me:</h1>
-<p>I'm someone who is always eager to learn new things!</p>
-<h1>My goals for this training:</h1>
-<ul>
-    <li>Learn front end development</li>
-    <li>Learn back end development</li>
-    <li>Understand how to ask questions about coding</li> 
-    <li>Get a job in the tech industry</li>  
-</ul>
 </html>
