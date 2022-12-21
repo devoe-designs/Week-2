@@ -1,0 +1,162 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.body-text {
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background-color: rgb(169, 32, 197);
+    font-family: "Montserrat", sans-serif;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.heading {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 16px 16px;
+}
+
+
+.nav-links li a:hover:not(.active) {
+    background-color: rgb(212, 0, 255);
+}
+
+.nav-links li a.active {
+    background-color:rgb(225, 139, 226);
+}
+
+.grid {
+    padding-top: 3rem;
+    max-width: 100rem;
+    margin-inline: auto;
+    padding-inline: 2rem;
+    padding-bottom: 1rem;
+ }
+ 
+ .stacked {
+    display: grid;
+ }
+ 
+ .card-stacked {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    border: 2px solid black;
+
+ }
+ 
+ .product-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+ }
+ 
+ .card {
+    aspect-ratio: 1 / 1;
+    border: 2px solid black;
+
+ }
+ 
+ .card__content {
+    background: rgb(212, 0, 255);
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    align-self: center;
+    text-align: center;
+    padding: .5rem;
+ }
+ 
+ .card__img {
+    aspect-ratio: 1 /1;
+    width: 100%
+}
+ 
+ .card__title {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    line-height: 1.1;
+    color: white;
+ }
+
+ .prices {
+    color: white;
+ }
+
+ button {
+    background: rgb(225, 139, 226);
+    padding: 5px 10px;
+    margin: 10px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+  }
+
+input[type=text] {
+    width: 50%;
+    padding:10px;
+    margin:10px 0;
+    background-color: rgb(225,139, 226);
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  }
+  
+  form {
+    margin-top: 2rem;
+    display: block;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-family: "Montserrat", sans-serif;
+    background-color: rgb(214, 214, 214);
+
+  }
+
+  .footer{
+    width: 100%;
+    margin-top: 20px;
+   display: flex;
+   align-items: center;
+   padding-top: .5rem;
+   padding-bottom: .5rem;
+   min-height: 10vh;
+   background-color: rgb(169, 32, 197);
+}
+
+.copyright {
+    font-family: "Montserrat", sans-serif;
+   color: white;
+   text-align: center;
+   flex-grow: .25;
+}

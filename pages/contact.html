@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+    <nav>
+        <a href="../index.html">
+            <img src="../photos/Dogs_designs_4250.svg" alt="dog logo" height="90px" cursor:pointer>
+        </a>
+        <div class="heading">
+            <h2>Furry Fashion</h2>
+        </div>
+        <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../pages/size-chart.html">Size Chart</a></li>
+             <li><a class='active' href="pages/contact.html">Contact</a></li>
+        </ul>
+        <img src="../photos/shopping-cart-svgrepo-com.svg" alt="shopping cart" height="50px" style="cursor:pointer;">
+    </nav>
+    <div class="body-text"><h1>Get in touch with us!</h1></div>
+   
+    <form action="server.php">  
+        First name: <input type="text" name="First Name"  placeholder="enter first name..." required><br>  
+        Last name: <input type="text" name="Last Name" placeholder="enter last name..." required><br> 
+        Email: <input type="text" name="Email Address" placeholder="enter email address..." required><br>  
+        Message: <input type="text" name="Message" placeholder="Type message here..." required><br>  
+        <label>Priority:</label>
+        <select name= "Priority" display>
+            <option value=" "High" Selected>High</option>
+            <option value="Medium">Medium</option>
+            <option value="Low">Low</option>
+        </select>
+        <button>Submit</button>
+    </form>  
+
+    <div class="footer">
+        <div class="copyright"
+           <h3>© Copyright 2022, DeVoe Designs.</h3>
+      </div>
+</body>
+</html>
